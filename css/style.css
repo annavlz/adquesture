@@ -1,4 +1,4 @@
-.header {
+.home {
 	text-align: right;
 	font-size: 1.2em;
 	font-weight: bold;
@@ -8,7 +8,7 @@
 	margin-top: 10px;
 }
 
-body {
+.black {
 	background-color: #000;
 }
 
@@ -21,7 +21,7 @@ body {
 }
 h2 {
 	position: absolute;
-	top: 20%;
+	top: 17%;
 	left: 0;
 	width: 100%;
 	font-family: 'Tangerine', cursive;
@@ -31,7 +31,7 @@ h2 {
 }
 h3 {
 	position: absolute;
-	top: 50%;
+	top: 60%;
 	left: 0;
 	width: 100%;
 	font-family: 'Tangerine', cursive;
@@ -45,3 +45,13 @@ h3 {
 	vertical-align: middle;
 	display: none;
 }
+
+footer {
+	margin-left: 88%;
+	
+	bottom: 0;
+	position: fixed;
+	padding: 1%;
+	background: #000;
+}
+
