@@ -4,6 +4,70 @@
 		"selected_items":
 		[
 			[
+				"slid",
+				"slideDown	.slideDown()"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"h",
+				"height	Attr"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"se",
+				"section	Tag"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"fo",
+				"font-weight"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"l",
+				"link	Tag"
+			],
+			[
+				"head",
+				"header	Tag"
+			],
+			[
 				"show",
 				"showText"
 			],
@@ -30,36 +94,43 @@
 			[
 				"u",
 				"ul	Tag"
-			],
-			[
-				"fo",
-				"footer	Tag"
-			],
-			[
-				"h",
-				"h1	Tag"
-			],
-			[
-				"he",
-				"header	Tag"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "/C/Users/Anna/Desktop/version-control/littlegardensoap/gallery.html",
+			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Adquesture by annavlz</title>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <link href='http://fonts.googleapis.com/css?family=Tangerine:400,700|Great+Vibes|Pacifico|Lobster+Two:400,400italic,700,700italic|Kaushan+Script|Courgette|Playball|Pinyon+Script|Satisfy|Handlee|Cookie|Cinzel+Decorative:400,900,700' rel='stylesheet' type='text/css'>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"stylesheets/normalize.css\" media=\"screen\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"css/style.css\">\n</head>\n<body>\n	<header class=\"header\">\n		<a href=\"index.html\" class=\"header\">START OVER</a>\n\n	</header>\n	<div class=\"author\">\n		<img src=\"img/scroll.png\" alt=\"\" width=\"600px\">\n		<h2>Hello, fellow wonderer!</h2>\n		<h3>click when you are ready to start you journey</h3>\n	</div>\n	<div align=\"center\">\n		<img src=\"img/door_green.jpg\" class=\"verticalImage\" width=\"300px\">\n		<img src=\"img/door_blue.jpg\" class=\"verticalImage\" width=\"300px\">\n	</div>\n\n  <script src=\"js/jquery-1.11.3.js\"></script>\n  <script src=\"js/index.js\"></script>\n\n</body>\n</html>",
+			"file": "index.html",
+			"file_size": 1188,
+			"file_write_time": 130782739404437931,
 			"settings":
 			{
-				"buffer_size": 3141,
+				"buffer_size": 1153,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "index.html",
+			"file": "/C/Users/Anna/AppData/Roaming/Sublime Text 3/Packages/User/adquest.sublime-snippet",
 			"settings":
 			{
-				"buffer_size": 306,
+				"buffer_size": 1223,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/index.js",
+			"settings":
+			{
+				"buffer_size": 179,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 622,
 				"line_ending": "Windows"
 			}
 		}
@@ -71,10 +142,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
-		"last_filter": "i",
+		"height": 357.0,
+		"last_filter": "jq sy",
 		"selected_items":
 		[
+			[
+				"jq sy",
+				"Set Syntax: jQuery (JavaScript)"
+			],
 			[
 				"i",
 				"Package Control: Install Package"
@@ -173,12 +248,16 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Anna/Desktop/version-control/littlegardensoap",
 		"/C/Users/Anna/Desktop/version-control/adquesture",
+		"/C/Users/Anna/Desktop/version-control/adquesture/css",
+		"/C/Users/Anna/Desktop/version-control/adquesture/img",
+		"/C/Users/Anna/Desktop/version-control/adquesture/js",
 		"/C/Users/Anna/Desktop/version-control/adquesture/stylesheets"
 	],
 	"file_history":
 	[
+		"/C/Users/Anna/Desktop/version-control/littlegardensoap/gallery.html",
+		"/C/Users/Anna/Desktop/version-control/adquesture/adquesture.sublime-project",
 		"/C/Users/Anna/Desktop/version-control/adquesture/index.html",
 		"/C/Users/Anna/Desktop/version-control/littlegardensoap/application.js",
 		"/C/Users/Anna/Desktop/version-control/littlegardensoap/css/style.css",
@@ -233,6 +312,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"height",
+			"section",
 			"jeff",
 			"Some",
 			"sidebar",
@@ -285,49 +366,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Users/Anna/Desktop/version-control/littlegardensoap/gallery.html",
+					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3141,
+						"buffer_size": 1153,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1203,
-								1203
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 48.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "index.html",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 306,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
+								1153,
+								1153
 							]
 						],
 						"settings":
@@ -335,10 +386,96 @@
 							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
+						"translation.y": 480.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/Anna/AppData/Roaming/Sublime Text 3/Packages/User/adquest.sublime-snippet",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1223,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								833,
+								833
+							]
+						],
+						"settings":
+						{
+							"default_extension": "sublime-snippet",
+							"syntax": "Packages/XML/XML.tmLanguage"
+						},
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 179,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								179,
+								179
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/jQuery/Syntaxes/jQueryJavaScript.tmLanguage"
+						},
+						"translation.x": 23.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 622,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								409,
+								409
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 504.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -350,7 +487,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 40.0
 	},
 	"layout":
 	{
