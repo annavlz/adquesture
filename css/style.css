@@ -17,7 +17,7 @@ body {
 	text-align: center;
 	width: 100;
 	position: relative;
-	margin-top: -40px;
+	margin-top: -50px;
 }
 h2 {
 	position: absolute;
@@ -28,4 +28,13 @@ h2 {
 	font-weight: 700;
 	font-size: 3em;
 
+}
+h3 {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	font-family: 'Tangerine', cursive;
+	font-weight: 400;
+	font-size: 2em;
 }
