@@ -94,3 +94,26 @@ td {
 	margin-left: 50%;
 	border: 0;
 }
+
+.timer
+{
+	text-align: center;
+	font-size: 10em;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+	margin-top: 50px;
+	font-family: 'Tangerine', cursive;
+
+}
+.timer_p
+{
+	text-align: center;
+	font-size: 3em;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+	margin-top: 50px;
+	font-family: 'Tangerine', cursive;
+
+}
