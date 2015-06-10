@@ -67,9 +67,9 @@ table {
 */	
 }
 .twoChoiceClick {
-	/*border: 5px solid white;
-	height: 90%px;*/
-	width: 100%;
+	/*border: 5px solid white;*/
+	height: 90%px;
+	width: 50%;
 	height: 500px;
 }
 
