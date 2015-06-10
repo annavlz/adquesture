@@ -78,7 +78,7 @@ a {
 }
 
 .white {
-	text-align: left;
+	text-align: center;
 	font-size: 1.2em;
 	font-weight: bold;
 	color: white;
@@ -140,4 +140,34 @@ COMPASS
 	padding: 50px;
 	vertical-align: middle;
 	display: none;
+}
+
+.interaction {
+	vertical-align: middle;
+}
+
+form {
+	display: none;
+}
+
+.answer {
+	height: 200px; 
+	width: 500px;
+	background-color: #e6e68a;
+	font-family: 'Courgette';
+	text-align: center;
+	font-size: 1.8em;
+	display: none;
+
+}
+
+.answer_blue {
+	height: 200px; 
+	width: 500px;
+	background-color: #e0ffff;
+	font-family: 'Courgette';
+	text-align: center;
+	font-size: 1.8em;
+	display: none;
+
 }
