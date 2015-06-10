@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	$('html').on('click', function() {
-		$('.verticalImage').show();
-		$('h2').text('Choose a door to your destiny.');
+		$('.compass').show();
+		$('h2').text('Now you can choose a direction.');
 		$('h3').text(' ') 			
 	});
 });
