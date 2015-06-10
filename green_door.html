@@ -8,23 +8,36 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-<header>
-</header>
-<body background="img/sea_surface.jpg">
+<body background="img/path-in-forest.jpg" style="no-repeat center center fixed">
+
 	<div class="author">
 		<img src="img/scroll.png" alt="" width="600px">
-		<h2>You swam and swam<br>
-		You found nothing</h2>
-		<h3>You've died of dehydration</h3>
+		<h2>You are in the forest.</h2>
+		<h3>What path to choose?</h3>
 	</div>
 	<div align="center">
-		
+		<table>
+			<tr>
+				<td class="twoChoiceClick">
+				<a href="forest_left.html">
+				<img src="img/blank.jpg" class="blank_image" title="left?">
+				</a>
+				</td>
+				<td class="twoChoiceClick">
+				<a href="forest_right.html">
+				<img src="img/blank.jpg" class="blank_image" title="or right?">
+				</a>
+				</td>
+			</tr>
+				
+			
+		</table>
 	</div>
 	<footer class="home">
 		<a href="index.html" class="home">START OVER</a>
 	</footer>
   <script src="js/jquery-1.11.3.js"></script>
-  <!-- <script src="js/.js"></script> -->
+  <script src="js/forest.js"></script>
 
 </body>
 </html>
