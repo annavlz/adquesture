@@ -1,22 +1,17 @@
-.home {
-	text-align: right;
-	font-size: 1.2em;
-	font-weight: bold;
-	margin-right: 11px;
-	margin-top: 10px;
-}
-
-.black {
+body {
+	background-size: 100% auto;
+	background-repeat: no-repeat;
 	background-color: #000;
+	background-position: absolute;
+	background-size: cover;
+	
 }
 
 
-.author {
-	text-align: center;
-	width: 100;
-	position: relative;
-	margin-top: -10px;
-}
+/*******************
+THE SCROLL
+********************/
+
 h2 {
 	position: absolute;
 	top: 17%;
@@ -36,14 +31,14 @@ h3 {
 	font-weight: 400;
 	font-size: 2em;
 }
-
-
-.verticalImage {
-	padding: 50px;
-	vertical-align: middle;
-	display: none;
+.author {
+	text-align: center;
+	width: 100;
+	position: relative;
+	margin-top: -10px;
 }
 
+/*works on START OVER*/
 footer {
 	margin-left: 88%;
 	
@@ -53,12 +48,10 @@ footer {
 	background: #000;
 }
 
-body {
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-color: #000;
-	background-position: absolute;
-}
+
+
+
+
 table {
 	margin-top: 2%;
 /*	width: 100%;
@@ -66,6 +59,10 @@ table {
 	opacity: 1;
 /*	border: 3px solid black;
 */	
+}
+a {
+	text-decoration: none;
+	color: #fff;
 }
 .twoChoiceClick {
 	/*border: 5px solid white;*/
@@ -86,15 +83,11 @@ table {
 	font-weight: bold;
 	color: white;
 	text-decoration: none;
-	/*margin-right: 10px;
-	margin-top: 10px;*/
 }
 
-#talk {
-	margin-left: 50%;
-	border: 0;
-}
-
+/**********************'
+TIMER
+***********************/
 .timer
 {
 	text-align: center;
@@ -118,6 +111,9 @@ table {
 
 }
 
+/************************
+COMPASS
+*************************/
 .compass
 {
 	font-family: 'Tangerine', cursive;
@@ -129,7 +125,19 @@ table {
 
 }
 
-a {
-	text-decoration: none;
-	color: #fff;
+
+.home {
+	text-align: right;
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-right: 11px;
+	margin-top: 10px;
+}
+
+
+
+.verticalImage {
+	padding: 50px;
+	vertical-align: middle;
+	display: none;
 }
