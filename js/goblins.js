@@ -14,18 +14,21 @@ $(document).ready(function() {
 function testResults (form) {
     var visitorAnswer = form.inputbox.value;
     var wordList = visitorAnswer.toLowerCase().split(" ");
-    for (i in wordList) {
-    	if (wordList[i] === "hey" || "hi") {
-    		$('.answer').text("Hi Hi");
-    		console.log(wordList[i])
-    	} else {
-    		$('.answer').text("WHA??")
-    	}
-
+   
+    function inTheList(word, list) {
+    	for (i in list) {
+    		if (list[i] === word) {
+    			return true;
+    		} 
+    	}	
+    	return false;
     };
 
-
-
-    
-}
+	if (inTheList("hi", wordList)) {
+		$('.answer').text("Hi Hi");
+	} else {
+		$('.answer').text("WHA??")
+	}
+  
+};
 
