@@ -45,9 +45,10 @@ function testResults (form) {
 		};
 		if (count > 10) {
 			$('.answer').remove();
+			$('form').remove();
 			$('h2').text("Goblins have eaten you.");
 			$('h3').text("Yumm...");
 		};
 	}
+	form.inputbox.value = " "
 };
-
