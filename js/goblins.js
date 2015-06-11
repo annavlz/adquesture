@@ -23,8 +23,20 @@ function testResults (form) {
     	}	
     	return false;
     };
+    function emptyList(list) {
+    	for (i in list) {
+    		if (list[i].length != 0) {
+    			return true;
+    		}
+    	}
+    	return false;
+    }
 
-	if (inTheList("hi", wordList)
+   	if (!emptyList(wordList)) {
+		$('.answer').text("Silent? We hungry. We eat you.")
+	}
+
+	else if (inTheList("hi", wordList)
 		|| inTheList("hey", wordList)
 		|| inTheList("ahoj", wordList)
 		|| inTheList("ho", wordList)
@@ -50,5 +62,6 @@ function testResults (form) {
 			$('h3').text("Yumm...");
 		};
 	}
-	form.inputbox.value = " "
+	form.inputbox.value = "";
+	
 };
