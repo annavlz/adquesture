@@ -4,7 +4,8 @@ $(document).ready(function() {
 	$('html').on('click', function() {
 		$('form').show();
 		$('.answer').show();
-					
+		$('h2').text('Click the button, do not press Enter')
+
 	});
 	$('html').on('keydown', function(e) {
 		$('form').show();
@@ -46,6 +47,19 @@ function testResults (form) {
 
    	if (!emptyList(wordList)) {
 		$('.answer').text("Silent? We hungry. We eat you.")
+		console.log(name);
+	}
+
+	else if (inTheList("sausage", wordList)) {
+
+		$('.answer').text("Do you have one?");
+	}
+
+	else if (inTheList("yes", wordList)
+		|| inTheList("yeah", wordList)
+		|| inTheList("y", wordList)) {
+
+		window.location="pass_out.html";
 	}
 
 	else if (inTheList("hi", wordList)
@@ -59,14 +73,19 @@ function testResults (form) {
 	else if (inTheList("not", wordList)
 		&& inTheList("tasty", wordList)) {
 		$('.answer').text("You look me very good tasty");
-
-	}else {
-		$('.answer').text("WHA?? Anyway, let's dine!")
+	
+	} else {
+		$('.answer').text("WHA?? Look tasty. We eat you")
 		count += 1;
 		if (count == 10){
 			$('.answer').text("Stop talk We eat you");
 			
 		};
+		if (count == 5) {
+			$('h2').text('What would you eat?')
+			$('h3').text('If you would have been a goblin.')
+			$('.answer').text("Goblin love sizzle meat");
+		}
 		if (count > 10) {
 			$('.answer').remove();
 			$('form').remove();
