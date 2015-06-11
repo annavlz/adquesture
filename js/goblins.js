@@ -4,7 +4,7 @@ $(document).ready(function() {
 	$('html').on('click', function() {
 		$('form').show();
 		$('.answer').show();
-		$('h2').text('Click the button, do not press Enter')
+		// $('h2').text('Click the button, do not press Enter')
 
 	});
 	$('html').on('keydown', function(e) {
@@ -82,8 +82,8 @@ function testResults (form) {
 			
 		};
 		if (count == 5) {
-			$('h2').text('What would you eat?')
-			$('h3').text('If you would have been a goblin.')
+			$('h2').text('What would you eat?');
+			$('h3').text('If you would have been a goblin.');
 			$('.answer').text("Goblin love sizzle meat");
 		}
 		if (count > 10) {
