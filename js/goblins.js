@@ -1,20 +1,28 @@
+// Opens dialog box on click or key pressed.
+
 $(document).ready(function() {
 	$('html').on('click', function() {
 		$('form').show();
 		$('.answer').show();
 					
 	});
-	$('html').on('keydown', function() {
+	$('html').on('keydown', function(e) {
 		$('form').show();
 		$('.answer').show();
-					
+			
 	});
 });
+
+// Number of tries to talk before game is over.
 var count = 0;
+
+
+// Gets data from users input and returns answer.
 function testResults (form) {
     var visitorAnswer = form.inputbox.value;
     var wordList = visitorAnswer.toLowerCase().split(" ");
     
+    // Searches the user's answer for matches.
     function inTheList(word, list) {
     	for (i in list) {
     		if (list[i] === word) {
@@ -23,6 +31,8 @@ function testResults (form) {
     	}	
     	return false;
     };
+
+    // Checks if the answer is empty.
     function emptyList(list) {
     	for (i in list) {
     		if (list[i].length != 0) {
@@ -31,6 +41,8 @@ function testResults (form) {
     	}
     	return false;
     }
+
+    // Answers.
 
    	if (!emptyList(wordList)) {
 		$('.answer').text("Silent? We hungry. We eat you.")
@@ -62,6 +74,7 @@ function testResults (form) {
 			$('h3').text("Yumm...");
 		};
 	}
+	// Clears the input box.
 	form.inputbox.value = "";
 	
 };
