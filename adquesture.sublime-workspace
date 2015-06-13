@@ -4,6 +4,154 @@
 		"selected_items":
 		[
 			[
+				"inthe",
+				"inthe	inTheList"
+			],
+			[
+				"wi",
+				"window"
+			],
+			[
+				"in",
+				"inTheList"
+			],
+			[
+				"k",
+				"keyCode"
+			],
+			[
+				"fa",
+				"false"
+			],
+			[
+				"con",
+				"con	consoleLog"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"for",
+				"form"
+			],
+			[
+				"wo",
+				"wordList"
+			],
+			[
+				"test",
+				"testResults"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"a",
+				"align	Attr"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"t",
+				"table	Tag"
+			],
+			[
+				"r",
+				"rows	Attr"
+			],
+			[
+				"i",
+				"input"
+			],
+			[
+				"ch",
+				"check"
+			],
+			[
+				"lo",
+				"log"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"pa",
+				"padding-right"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"al",
+				"vertical-align"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"key",
+				"keydown	.keydown()"
+			],
+			[
+				"fo",
+				"font-family"
+			],
+			[
+				"s",
+				"scriptsrc	scriptsrc"
+			],
+			[
+				"sp",
+				"span	Tag"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"m",
+				"margin-top"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"ad",
+				"adquest	adquest"
+			],
+			[
+				"h",
+				"href	Attr"
+			],
+			[
 				"slid",
 				"slideDown	.slideDown()"
 			],
@@ -18,10 +166,6 @@
 			[
 				"he",
 				"height"
-			],
-			[
-				"h",
-				"height	Attr"
 			],
 			[
 				"fon",
@@ -40,20 +184,12 @@
 				"width"
 			],
 			[
-				"te",
-				"text-align"
-			],
-			[
 				"se",
 				"section	Tag"
 			],
 			[
 				"tex",
 				"text-decoration"
-			],
-			[
-				"fo",
-				"font-weight"
 			],
 			[
 				"background-c",
@@ -84,10 +220,6 @@
 				"script	Tag"
 			],
 			[
-				"i",
-				"img	Tag"
-			],
-			[
 				"col",
 				"color"
 			],
@@ -100,29 +232,72 @@
 	"buffers":
 	[
 		{
-			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Adquesture by annavlz</title>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <link href='http://fonts.googleapis.com/css?family=Tangerine:400,700|Great+Vibes|Pacifico|Lobster+Two:400,400italic,700,700italic|Kaushan+Script|Courgette|Playball|Pinyon+Script|Satisfy|Handlee|Cookie|Cinzel+Decorative:400,900,700' rel='stylesheet' type='text/css'>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"stylesheets/normalize.css\" media=\"screen\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"css/style.css\">\n</head>\n<body>\n	<header class=\"header\">\n		<a href=\"index.html\" class=\"header\">START OVER</a>\n\n	</header>\n	<div class=\"author\">\n		<img src=\"img/scroll.png\" alt=\"\" width=\"600px\">\n		<h2>Hello, fellow wonderer!</h2>\n		<h3>click when you are ready to start you journey</h3>\n	</div>\n	<div align=\"center\">\n		<img src=\"img/door_green.jpg\" class=\"verticalImage\" width=\"300px\">\n		<img src=\"img/door_blue.jpg\" class=\"verticalImage\" width=\"300px\">\n	</div>\n\n  <script src=\"js/jquery-1.11.3.js\"></script>\n  <script src=\"js/index.js\"></script>\n\n</body>\n</html>",
-			"file": "index.html",
-			"file_size": 1188,
-			"file_write_time": 130782739404437931,
+			"file": "/C/Users/Anna/Desktop/version-control/test/index.html",
 			"settings":
 			{
-				"buffer_size": 1153,
+				"buffer_size": 693,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/Anna/AppData/Roaming/Sublime Text 3/Packages/User/adquest.sublime-snippet",
+			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Adquesture by annavlz</title>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <link href='http://fonts.googleapis.com/css?family=Tangerine:400,700|Great+Vibes|Pacifico|Lobster+Two:400,400italic,700,700italic|Kaushan+Script|Courgette|Playball|Pinyon+Script|Satisfy|Handlee|Cookie|Cinzel+Decorative:400,900,700' rel='stylesheet' type='text/css'>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"stylesheets/normalize.css\" media=\"screen\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"css/style.css\">\n</head>\n<header>\n</header>\n<body background=\"img/well.jpg\">\n	<div class=\"author\">\n		<img src=\"img/scroll.png\" alt=\"\" width=\"600px\">\n		<h2>Welcome back!</h2>\n		<h3>Click the button, do not press Enter</h3>\n	</div>\n	<div align=\"center\">\n			<div align=\"center\">\n				<form name=\"myform\" action=\"\" method=\"get\"><p class=\"white\"> </p>\n				<input type=\"text\" name=\"inputbox\" value=\"\"><p>\n				<input type=\"button\" name=\"button\" value=\"DO\" onclick=\"testResults(this.form)\">\n				</form>\n			</div>\n			\n		\n		\n		\n	</div>\n	<footer class=\"home\">\n		<a href=\"index.html\" class=\"home\">START OVER</a>\n	</footer>\n  <script src=\"js/jquery-1.11.3.js\"></script>\n  <script src=\"js/well.js\"></script>\n\n</body>\n</html>",
+			"file": "well.html",
+			"file_size": 1301,
+			"file_write_time": 130784771744292624,
 			"settings":
 			{
-				"buffer_size": 1223,
+				"buffer_size": 1300,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "js/index.js",
+			"file": "forest_left.html",
 			"settings":
 			{
-				"buffer_size": 179,
+				"buffer_size": 1437,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "forest_right.html",
+			"settings":
+			{
+				"buffer_size": 1426,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "window.onload = function() {\n    var countdownElement = document.getElementById('countdown'),\n        downloadButton = document.getElementById('download'),\n        seconds = 30,\n        second = 0,\n        interval;\n\n    downloadButton.style.display = 'none';\n\n    interval = setInterval(function() {\n        countdownElement.firstChild.data = (seconds - second);\n        if (second >= seconds) {\n            downloadButton.style.display = 'block';\n            clearInterval(interval);\n        }\n\n        second++;\n    }, 1000);\n}\nvar count = 0;\nwindow.addEventListener('keydown', function(e) {\n    \n    if(e.keyCode == 38) {\n        count += 1;\n        \n    }\n    if(count == 10) {\n        window.location=\"sea_surface.html\";\n        \n    }\n});\n//keydown   keyCode=38 which=38 charCode=0 char=&//\n\n",
+			"file": "js/sea.js",
+			"file_size": 850,
+			"file_write_time": 130783718618562445,
+			"settings":
+			{
+				"buffer_size": 799,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/cottage.js",
+			"settings":
+			{
+				"buffer_size": 2289,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/well.js",
+			"settings":
+			{
+				"buffer_size": 1778,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/goblins.js",
+			"settings":
+			{
+				"buffer_size": 2189,
 				"line_ending": "Windows"
 			}
 		},
@@ -130,7 +305,7 @@
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 622,
+				"buffer_size": 2272,
 				"line_ending": "Windows"
 			}
 		}
@@ -142,10 +317,30 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 357.0,
-		"last_filter": "jq sy",
+		"height": 392.0,
+		"last_filter": "lo",
 		"selected_items":
 		[
+			[
+				"lo",
+				"Convert Case: Lower Case"
+			],
+			[
+				"Snippet: ",
+				"Snippet: adquest"
+			],
+			[
+				"jq",
+				"Snippet: jQuery(document).ready"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
 			[
 				"jq sy",
 				"Set Syntax: jQuery (JavaScript)"
@@ -189,10 +384,6 @@
 			[
 				"snip",
 				"Snippet: html"
-			],
-			[
-				"ins",
-				"Package Control: Install Package"
 			],
 			[
 				"ja",
@@ -250,17 +441,50 @@
 	[
 		"/C/Users/Anna/Desktop/version-control/adquesture",
 		"/C/Users/Anna/Desktop/version-control/adquesture/css",
-		"/C/Users/Anna/Desktop/version-control/adquesture/img",
-		"/C/Users/Anna/Desktop/version-control/adquesture/js",
-		"/C/Users/Anna/Desktop/version-control/adquesture/stylesheets"
+		"/C/Users/Anna/Desktop/version-control/adquesture/js"
 	],
 	"file_history":
 	[
-		"/C/Users/Anna/Desktop/version-control/littlegardensoap/gallery.html",
-		"/C/Users/Anna/Desktop/version-control/adquesture/adquesture.sublime-project",
+		"/C/Users/Anna/Desktop/version-control/adquesture/js/goblins.js",
+		"/C/Users/Anna/AppData/Roaming/Sublime Text 3/Packages/User/inTheList.sublime-snippet",
+		"/C/Users/Anna/AppData/Roaming/Sublime Text 3/Packages/User/speak.sublime-snippet",
+		"/C/Users/Anna/Desktop/version-control/adquesture/pass_out.html",
+		"/C/Users/Anna/Desktop/version-control/adquesture/forest_left.html",
+		"/C/Users/Anna/Desktop/version-control/adquesture/js/pass_out.js",
+		"/C/Users/Anna/Desktop/version-control/adquesture/js/test.js",
+		"/C/Users/Anna/AppData/Roaming/Sublime Text 3/Packages/User/answer.sublime-snippet",
+		"/C/Users/Anna/AppData/Roaming/Sublime Text 3/Packages/User/consoleLog.sublime-snippet",
+		"/C/Users/Anna/Desktop/version-control/adquesture/e.html",
+		"/C/Users/Anna/Desktop/version-control/adquesture/js/island.js",
+		"/C/Users/Anna/Desktop/version-control/test/test.js",
+		"/C/Users/Anna/Desktop/version-control/adquesture/js/cottage.js",
+		"/C/Users/Anna/Desktop/version-control/adquesture/forest_right.html",
+		"/C/Users/Anna/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Anna/Desktop/version-control/test/style.css",
 		"/C/Users/Anna/Desktop/version-control/adquesture/index.html",
-		"/C/Users/Anna/Desktop/version-control/littlegardensoap/application.js",
+		"/C/Users/Anna/Desktop/version-control/adquesture/green_door.html",
+		"/C/Users/Anna/Desktop/version-control/adquesture/s.html",
+		"/C/Users/Anna/Desktop/version-control/adquesture/css/style.css",
+		"/C/Users/Anna/Desktop/version-control/adquesture/n.html",
+		"/C/Users/Anna/Desktop/version-control/adquesture/sea_surface.html",
+		"/C/Users/Anna/Desktop/version-control/adquesture/goblins.html",
+		"/C/Users/Anna/Desktop/version-control/adquesture/right.html",
+		"/C/Users/Anna/Desktop/version-control/adquesture/cottage.html",
+		"/C/Users/Anna/Desktop/version-control/adquesture/thirsty.html",
+		"/C/Users/Anna/Desktop/version-control/adquesture/green.html",
+		"/C/Users/Anna/Desktop/version-control/adquesture/adquesture.sublime-project",
+		"/C/Users/Anna/Desktop/version-control/adquesture/js/index.js",
+		"/C/Users/Anna/Desktop/version-control/adquesture/js/sea_surface.js",
+		"/C/Users/Anna/Desktop/version-control/adquesture/shark.html",
+		"/C/Users/Anna/Desktop/version-control/adquesture/forest.html",
+		"/C/Users/Anna/Desktop/version-control/adquesture/js/sea.js",
+		"/C/Users/Anna/Desktop/version-control/adquesture/sea.html",
+		"/C/Users/Anna/Desktop/version-control/adquesture/js/forest.js",
+		"/C/Users/Anna/AppData/Roaming/Sublime Text 3/Packages/User/adquest.sublime-snippet",
+		"/C/Users/Anna/Desktop/version-control/littlegardensoap/index.html",
 		"/C/Users/Anna/Desktop/version-control/littlegardensoap/css/style.css",
+		"/C/Users/Anna/Desktop/version-control/littlegardensoap/gallery.html",
+		"/C/Users/Anna/Desktop/version-control/littlegardensoap/application.js",
 		"/c/Users/Anna/Desktop/version-control/littlegardensoap/index.html",
 		"/C/Users/Anna/Desktop/version-control/littlegardensoap/contact.html",
 		"/C/Users/Anna/Desktop/version-control/littlegardensoap/about.html",
@@ -286,7 +510,6 @@
 		"/C/Users/Anna/Desktop/new",
 		"/C/Users/Anna/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
 		"/C/Users/Anna/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
-		"/C/Users/Anna/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/C/Users/Anna/Desktop/version-control/reflections/lesson_2_reflections",
 		"/C/dev/test",
 		"/C/Users/Anna/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
@@ -312,6 +535,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"erticalIma",
+			"10",
+			"twoChoiceClick",
 			"height",
 			"section",
 			"jeff",
@@ -366,19 +592,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "/C/Users/Anna/Desktop/version-control/test/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1153,
+						"buffer_size": 693,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1153,
-								1153
+								667,
+								461
 							]
 						],
 						"settings":
@@ -386,33 +612,124 @@
 							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 480.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "/C/Users/Anna/AppData/Roaming/Sublime Text 3/Packages/User/adquest.sublime-snippet",
+					"file": "well.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1223,
+						"buffer_size": 1300,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								833,
-								833
+								807,
+								807
 							]
 						],
 						"settings":
 						{
-							"default_extension": "sublime-snippet",
-							"syntax": "Packages/XML/XML.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 383.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "forest_left.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1437,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1212,
+								830
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 360.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "forest_right.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1426,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1312,
+								1312
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 504.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 4,
+					"file": "js/sea.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 799,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								495,
+								495
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -422,60 +739,116 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "js/index.js",
+					"buffer": 5,
+					"file": "js/cottage.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 179,
+						"buffer_size": 2289,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								179,
-								179
+								0,
+								2289
 							]
 						],
 						"settings":
 						{
-							"auto_name": "",
-							"syntax": "Packages/jQuery/Syntaxes/jQueryJavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
-						"translation.x": 23.0,
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 6,
+					"file": "js/well.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1778,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1775,
+								1775
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1656.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "js/goblins.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2189,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								2189
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
 					"file": "css/style.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 622,
+						"buffer_size": 2272,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								409,
-								409
+								2185,
+								2185
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 504.0,
+						"translation.y": 3405.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 8,
 					"type": "text"
 				}
 			]
@@ -498,11 +871,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.392145369285,
 			1.0
 		],
 		"rows":
@@ -554,7 +934,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
