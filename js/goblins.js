@@ -29,7 +29,6 @@ function testResults (form) {
 	for(var key in responses) {
 		if (visitorAnswer.search(key) >= 0){
 			$('.answer').text(responses[key]);
-			count ++;
 			break;
 		} else if (visitorAnswer.search("yes") >= 0
 			|| visitorAnswer.search("yeah") >= 0
@@ -37,13 +36,11 @@ function testResults (form) {
 			window.location="pass_out.html";
 		} else if (visitorAnswer.length == 0) {
 			$('.answer').text("Silent? We hungry. We eat you.");
-			count ++;
 			break;
 		}else{$('.answer').text("WHA?? Look tasty. We eat you");
-			count ++;
 		}
 	};
-
+	count++;
 	// number of tries
 	if (count == 5) {
 			$('h2').text('What would you eat?');
