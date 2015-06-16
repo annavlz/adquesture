@@ -26,7 +26,7 @@ window.addEventListener('keydown', function(e) {
     }
     if(count == 10) {
         window.location="sea_surface.html";
-        console.log('yes')
+        
     }
 });
 //keydown   keyCode=38 which=38 charCode=0 char=&//
