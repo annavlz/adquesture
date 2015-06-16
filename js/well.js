@@ -10,8 +10,6 @@ $(document).ready(function() {
 
 var count = 0;
 
-console.log(count);
-
 function testResults (form) {
     visitorAnswer = form.inputbox.value;
     
@@ -22,8 +20,10 @@ function testResults (form) {
     	"hey": "Talking to yourself? Already?",
     	"ahoj": "Talking to yourself? Already?",
     	"greetings": "Talking to yourself? Already?",
-    	"out": "The walls are too steep.",
-    	"shout": "Someone is outside. Do you want help?"
+    	" out": "The walls are too steep.",
+    	"shout": "Someone is outside. Do you want help?",
+    	"eat": "There's nothing to eat.",
+    	"drink": "Water looks filthy."
     	
 
     };
@@ -52,14 +52,13 @@ function testResults (form) {
 			
 		};
 	if (count == 10) {$('h2').text("You are tired.")};
-	if (count > 10) {
+	if (count > 10 || visitorAnswer.search("sleep") >= 0) {
 			
 			$('form').remove();
 			$('h2').text("You've died of cold.");
 			$('h3').text("Sad...");
 		};
-	console.log(count);
-    // Clears the input box."Pardon? My handsome tasty dinner."
+    // Clears the input box.
 	form.inputbox.value = "";
  };
 
